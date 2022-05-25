@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Overpass';
+    src:  url(font\Overpass-VariableFont_wght.ttf) format('truetype'),
+          
+  }
+
+body, body*{
+    font-family: Overpass, sans-serif !important;
+    font-weight: 100;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    height: 100vh;
+    color: white;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height:50vh;
+    width: 50vh;
+    background: rgb(31, 38, 48);
+    position: relative;
+    border-radius: 30px;
+    display: auto;
+}
+
+container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+
+.flexy{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: stretch;
+    height: 50px;
+    margin-top: 30vh;   
+}
+
+.circle{
+    background: rgb(38, 47, 56);
+    color: hsl(216, 12%, 54%);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.submit{
+    font-size: small;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 45vh; ;
+    height: 35px;   
+}
+
+.button1{
+    border: none;
+    color: white; 
+}
+
+button1:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+  }
+
+.topdiv{
+    position: absolute;
+    display: block;
+    
+    align-items: center;
+    height: 60px;
+    width: 230px;
+}
