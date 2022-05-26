@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Overpass';
-    src:  url(font\Overpass-VariableFont_wght.ttf) format('truetype'),
-          
-  }
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
 
-body, body*{
-    font-family: Overpass, sans-serif !important;
-    font-weight: 100;
+*{
+    font-family: 'Overpass', sans-serif;
 }
 
 body{
@@ -31,6 +26,7 @@ div{
 div2{
     display: block;
     color: hsl(216, 12%, 54%);
+    margin-top: 20px;
 }
 
 container{
@@ -87,6 +83,7 @@ button1:hover {
 .topdiv{
     position: absolute;
     display: block;
+    margin-top: 50px;
     margin-bottom: 50vh;
     align-items: center;
     height: fit-content;
@@ -94,6 +91,3 @@ button1:hover {
     padding: 20px;
 }
 
-.star{
-    src: images;
-}
